@@ -1,0 +1,227 @@
+    .subscribe {
+        background-color: red;
+        color: white;
+        border: none;
+        width: 100px;
+        height: 36px;
+        border-radius: 2px;
+        cursor: pointer;
+        transition: opacity 0.3s;
+    }
+
+    .subscribe:hover {
+        opacity: 0.6;
+    }
+
+    .subscribe:active {
+        opacity: 0.3;
+    }
+
+    .join {
+        margin-left: 10px;
+        background-color: white;
+        color: rgb(6, 95, 221);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 2px;
+        border-color: rgb(6, 95, 221);
+        height: 36px;
+        width: 70px;
+        font-size: 15px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .join:hover {
+        background-color: rgb(41, 118, 231);
+        color: white;
+    }
+
+    .join:active {
+        opacity: 0.7;
+    }
+
+    .Tweet {
+        background-color: rgb(2, 158, 255);
+        color: white;
+        border: none;
+        height: 36px;
+        font-weight: bold;
+        width: 70px;
+        border-radius: 18px;
+        cursor: pointer;
+        transition: box-shadow 0.3s;
+    }
+
+    .Tweet:hover {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .Request-now {
+        background-color: black;
+        border: none;
+        color: white;
+        width: 120px;
+        height: 36px;
+        cursor: pointer;
+        transition: opacity 0.3s;
+    }
+
+    .Request-now:hover {
+        opacity: 0.7;
+    }
+
+
+    .amazon-add-to-cart {
+        background-color: rgb(255, 216, 20);
+        color: black;
+        height: 28px;
+        width: 130px;
+        border: none;
+        border-radius: 18px;
+        cursor: pointer;
+        transition: filter 0.3s;
+    }
+
+    .amazon-add-to-cart:hover {
+        filter: contrast(80%);
+    }
+
+    .amazon-add-to-cart:active {
+        opacity: 0.8;
+    }
+
+    .amazon-buy-now {
+        margin-left: 10px;
+        background-color: rgb(255, 164, 28);
+        color: black;
+        height: 28px;
+        width: 130px;
+        border: none;
+        border-radius: 18px;
+        cursor: pointer;
+        transition: filter 0.3s;
+    }
+
+    .amazon-buy-now:hover {
+        filter: contrast(80%);
+    }
+
+    .amazon-buy-now:active {
+        opacity: 0.8;
+    }
+
+    .Github {
+        background-color: rgb(46, 164, 79);
+        color: white;
+        width: 80px;
+        height: 30px;
+        cursor: pointer;
+        border: none;
+        border-radius: 4px;
+        transition: opacity 0.3s, box-shadow 0.3s;
+    }
+
+    .Github:hover {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        opacity: 0.9;
+    }
+
+    .bootstrap-1 {
+        background-color: rgb(121, 82, 179);
+        color: white;
+        border: none;
+        border-radius: 3px;
+        width: 100px;
+        height: 30px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: opacity 0.3s, box-shadow 0.3s;
+    }
+
+    .bootstrap-1:hover {
+        opacity: 0.9;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .bootstrap-2 {
+        margin-left: 10px;
+        background-color: white;
+        color: rgb(108, 117, 125);
+        border-color: rgb(108, 117, 125);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 3px;
+        width: 100px;
+        height: 30px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .bootstrap-2:hover {
+        background-color: rgb(108, 117, 125);
+        color: white;
+    }
+
+
+    .LinkedIn-1 {
+        background-color: rgb(10, 102, 194);
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 15px;
+        height: 30px;
+        width: 210px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .LinkedIn-1:hover {
+        background-color: rgb(4, 71, 137);
+    }
+
+    .LinkedIn-2 {
+        margin-left: 10px;
+        background-color: white;
+        color: rgb(10, 102, 194);
+        border-style: solid;
+        border-color: rgb(10, 102, 194);
+        font-weight: bold;
+        border-width: 1px;
+        border-radius: 15px;
+        height: 30px;
+        width: 80px;
+        cursor: pointer;
+        transition: background-color 0.3s, border-width 0.3s;
+    }
+
+    .LinkedIn-2:hover {
+        background-color: rgb(192, 219, 247);
+        border-width: 1.5px;
+    }
+
+    .product-title {
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+    .MRP {
+        color: rgb(0, 118, 0);
+        font-weight: bold;
+    }
+
+    .msg {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+    }
+
+    .changelog{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .list{
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
