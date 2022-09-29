@@ -1,0 +1,19 @@
+.pname {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Montserrat;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.des {
+    margin-top: 10px;
+    font-family: Montserrat;
+    font-size: 22px;
+    text-align: center;
+}
+
+.online-delivery {
+    text-decoration: underline;
+}
