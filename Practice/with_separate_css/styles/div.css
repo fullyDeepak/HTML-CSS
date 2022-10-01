@@ -1,0 +1,170 @@
+p {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.red-square {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.green-circle {
+    display: inline-block;
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: green;
+}
+
+.feedback {
+    margin-top: 10px;
+    width: 300px;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.qs {
+    margin-top: 15px;
+    font-family: Arial;
+}
+
+.ans {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+}
+
+.YTM-div {
+    background-color: #232323;
+    width: 313px;
+}
+
+.install-ytm {
+    cursor: pointer;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.desc {
+    margin-top: 0;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Arial;
+    font-size: 13px;
+    color: #9f9f9f;
+}
+
+.twitter-div {
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: inline-block;
+    box-shadow: 0px 0px 3px #878787;
+}
+
+.twitter-new-tweet {
+    border: none;
+    vertical-align: middle;
+    height: 30px;
+    width: 250px;
+}
+
+.tweet {
+    border-radius: 20px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: #4a99e9;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px #bebebe;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.tweet:hover {
+    background-color: #67adf4;
+}
+
+.DP {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    vertical-align: middle;
+}
+
+.fb-div {
+    margin-top: 0px;
+    margin-right: 10px;
+    display: inline-block;
+    height: auto;
+    width: 160px;
+    box-shadow: 0px 0px 3px #8a8a8a;
+}
+
+.fb-img {
+    margin-top: 0px;
+    width: 160px;
+}
+
+.fb-name {
+    font-size: 18px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Arial;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.fb-mutual {
+    padding-bottom: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Arial;
+    font-size: 12px;
+    color: #232323;
+    margin-left: 10px;
+}
+
+.fb-add-friend {
+    font-size: 14PX;
+    border: none;
+    background-color: #3975e9;
+    color: white;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+
+.fb-add-friend:hover {
+    background-color: #2662da;
+}
