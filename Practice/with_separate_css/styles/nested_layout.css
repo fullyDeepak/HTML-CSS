@@ -1,0 +1,199 @@
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.twitter-div {
+    width: 300px;
+    /* border-width: 2px;
+    border-style: solid; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dp-div {
+    display: inline-block;
+    width: 50px;
+    vertical-align: middle;
+}
+
+.dp-img {
+    width: 40px;
+    border-radius: 25px;
+    /* display: inline-block; */
+}
+
+.uname {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.desc-div {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.button-div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.button {
+    display: inline-block;
+}
+
+.desc-div {
+    width: 180px;
+}
+
+.button {
+    border: none;
+    background-color: #4093f0;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+
+.button:hover {
+    background-color: #3a81d2;
+}
+
+.subname {
+    font-size: 12px;
+    color: #909090;
+}
+
+.yt-sidebar-div{
+    width: 480px;
+    margin-bottom: 5px;
+}
+.yt-sidebar-div:hover{
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+.yt-img-div {
+    display: inline-block;
+}
+
+.yt-thumbnail-img {
+    display: inline-block;
+    width: 180px;
+}
+
+.yt-desc-div {
+    padding-top: 4px;
+    padding-left: 4px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.yt-video-title {
+    font-family: Roboto;
+    vertical-align: top;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 280px;
+}
+
+.yt-channel-name,
+.yt-video-stats{
+    font-family: Roboto;
+    font-size: 13px;
+    color: #707070;
+    font-weight: 400;
+}
+.yt-channel-name{
+    margin-top: 8px;
+    margin-bottom: 3px;
+}
+
+
+.fb-div {
+    margin-top: 0px;
+    margin-right: 10px;
+    display: inline-block;
+    height: auto;
+    width: 160px;
+    box-shadow: 0px 0px 3px #8a8a8a;
+}
+
+.fb-img {
+    margin-top: 0px;
+    width: 160px;
+}
+
+.fb-name {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    font-family: Arial;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.fb-mutual {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Arial;
+    font-size: 12px;
+    color: #232323;
+    margin-left: 10px;
+}
+
+.fb-add-friend {
+    font-size: 14PX;
+    border: none;
+    background-color: #3975e9;
+    color: white;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+
+.fb-add-friend:hover {
+    background-color: #2662da;
+}
+
+.mutual-div {
+    width: 25px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.mutual-desc {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.mutual-img {
+    display: inline-block;
+    width: 25px;
+    border-radius: 20px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.demo-name{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
