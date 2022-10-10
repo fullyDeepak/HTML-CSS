@@ -1,0 +1,205 @@
+body {
+    margin-bottom: 800px;
+}
+
+.flexbox-1,
+.flexbox-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexbox-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flexbox-4 {
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: gray;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+.fb-menu-outer-flex {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cecece;
+    border-radius: 10px;
+    height: 100px;
+    width: 300px;
+    box-shadow: 0px 0px 1px #b7b7b7;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+
+.fb-menu-inner-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fb-menu-text {
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.fb-notification-text {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 13px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.demo-name {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+
+.twitter-div {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    align-items: center;
+    /* width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px; */
+}
+
+.tw-dp-div {
+    /* display: inline-block; */
+    width: 50px;
+    vertical-align: middle;
+}
+
+.tw-dp-img {
+    width: 40px;
+    border-radius: 25px;
+    /* display: inline-block; */
+}
+
+.tw-uname {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* .tw-desc-div {
+    vertical-align: middle;
+    display: inline-block;
+} */
+
+/* .tw-button-div {
+    display: inline-block;
+    vertical-align: middle;
+} */
+
+/* .tw-button {
+    display: inline-block;
+} */
+
+.tw-desc-div {
+    width: 180px;
+}
+
+.tw-button {
+    border: none;
+    background-color: #4093f0;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+
+.tw-button:hover {
+    background-color: #3a81d2;
+}
+
+.tw-subname {
+    font-size: 12px;
+    color: #909090;
+    margin-top: 5px;
+}
+
+.tw-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-flex {
+    display: flex;
+    flex-direction: row;
+    background-color: #7254ad;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header-home {
+    font-family: Arial;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header-search {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 40px;
+    margin-right: 40px;
+    flex: 1;
+    height: 30px;
+    padding-left: 15px;
+    border-radius: 20px;
+    border: none;
+
+}
+
+.header-download-button {
+    background-color: #7254ad;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+
+.header-download-button:hover {
+    background-color: #8566c3;
+}

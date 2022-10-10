@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flexbox demo</title>
+    <link rel="stylesheet" href="styles/flexbox.css">
+</head>
+
+<body>
+    <p class="demo-name">flexbox with 2 itmes, Width = 200px &#124; 75px</p>
+    <div class="flexbox-1">
+        <div style="background-color: lightblue;
+            width: 200px;
+            ">200px</div>
+        <div style="background-color: lightpink;
+            width: 75px;">75px</div>
+    </div>
+
+
+    <p class="demo-name">flexbox with 3 itmes, Width = 50px &#124; remaining space &#124; 75px</p>
+
+    <div class="flexbox-2">
+        <div style="background-color: lightpink;
+        width: 50px;
+        ">50px</div>
+        <div style="background-color: lightblue;
+        flex: 1;
+        ">flex:1</div>
+        <div style="background-color: lightpink;
+        width: 75px;
+        ">75px</div>
+    </div>
+
+    <p class="demo-name">flexbox with 4 itmes, space evenly across the page</p>
+
+    <div class="flexbox-3">
+        <div style="background-color: lightpink;
+        width: 100px;
+        ">item1</div>
+        <div style="background-color: lightpink;
+        width: 100px;
+        ">item2</div>
+        <div style="background-color: lightpink;
+        width: 100px;
+        ">item3</div>
+        <div style="background-color: lightpink;
+        width: 100px;
+        ">item4</div>
+    </div>
+
+    <p class="demo-name">flexbox with height = 50px and gray border.</p>
+    <div class="flexbox-4">
+        <div style="background-color: lightpink;">item1</div>
+        <div style="background-color: lightpink;">item2</div>
+    </div>
+
+    <p class="demo-name">FB menu design</p>
+    <div class="fb-menu-outer-flex">
+        <div class="fb-menu-inner-flex">
+            <div class="fb-menu-text">Home</div>
+            <div class="fb-notification-text">14</div>
+        </div>
+        <div class="fb-menu-inner-flex">
+            <div class="fb-menu-text">Notifications</div>
+            <div class="fb-notification-text">3</div>
+        </div>
+        <div class="fb-menu-inner-flex">
+            <div class="fb-menu-text">Messages</div>
+            <div class="fb-notification-text">5</div>
+        </div>
+    </div>
+
+    <p class="demo-name">Twitter follower page demo using flex</p>
+
+    <div class="tw-flex">
+        <div class="twitter-div">
+            <div class="tw-dp-div">
+                <img class="tw-dp-img" src="images/bob.webp">
+            </div>
+            <div class="tw-desc-div">
+                <p class="tw-uname">Bob</p>
+                <p class="tw-subname">Little Brother</p>
+                <p class="tw-subname">Popular</p>
+            </div>
+            <div class="tw-button-div">
+                <button class="tw-button">Follow</button>
+            </div>
+        </div>
+
+        <div class="twitter-div">
+            <div class="tw-dp-div">
+                <img class="tw-dp-img" src="images/kevin.webp">
+            </div>
+            <div class="tw-desc-div">
+                <p class="tw-uname">Kevin</p>
+                <p class="tw-subname">Little Brother</p>
+                <p class="tw-subname">Popular</p>
+            </div>
+            <div class="tw-button-div">
+                <button class="tw-button">Follow</button>
+            </div>
+        </div>
+        <div class="twitter-div">
+            <div class="tw-dp-div">
+                <img class="tw-dp-img" src="images/stuart.webp">
+            </div>
+            <div class="tw-desc-div">
+                <p class="tw-uname">Stuart</p>
+                <p class="tw-subname">Little Brother</p>
+                <p class="tw-subname">Popular</p>
+            </div>
+            <div class="tw-button-div">
+                <button class="tw-button">Follow</button>
+            </div>
+        </div>
+    </div>
+
+    <p class="demo-name">Header-design using flex</p>
+    <div class="header-flex">
+        <div class="header-home">Home</div>
+        <input class="header-search" type="text" placeholder="Search">
+        <button class="header-download-button">Download</button>
+    </div>
+
+
+
+</body>
+
+</html>
