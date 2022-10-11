@@ -1,0 +1,91 @@
+.yt-video-thumbnail {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.video-info-flex {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.video-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.more-div {
+    position: absolute;
+    right: -10px;
+}
+
+.channel-logo {
+    width: 40px;
+    border-radius: 25px;
+    margin-right: 12px;
+}
+
+.video-title {
+    width: 85%;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 0;
+    line-height: 20px;
+    margin-bottom: 8px;
+    font-family: Roboto;
+}
+
+.thumbnail-div {
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.channel-name,
+.video-stats {
+    font-size: 12px;
+    color: hsl(0, 0%, 38%);
+    font-family: Roboto;
+}
+
+.channel-name {
+    margin-bottom: 4px;
+}
+
+.yt-video-grid {
+    display: grid;
+    column-gap: 18px;
+    row-gap: 20px;
+}
+
+.video-time {
+    background-color: rgba(0, 0, 0, 0.65);
+    color: white;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+.more-div {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 30px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-color: hsla(0, 0%, 0%, 0);
+    transition-delay: -1s;
+    transition-duration: 3s;
+    transition-property: border-color, background-color;
+}
+
+.more-div:active {
+    border-color: hsl(0, 0%, 48%);
+    background-color: hsl(0, 0%, 92%);
+}

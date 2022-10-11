@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>YouTube Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+
+<body>
+    <div class="yt-header">
+        <div class="left-header-section">
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+            <img class="youtube-logo" src="icons/youtube-logo.svg">
+        </div>
+
+
+        <div class="middle-header-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="icon" src="icons/search.svg">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-button">
+                <img class="icon" src="icons/voice-search-icon.svg">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+
+
+
+        <div class="right-header-section">
+            <div class="upload-icon-container">
+                <img class="icon" src="icons/upload.svg">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="yt-apps-container">
+                <img class="icon" src="icons/youtube-apps.svg">
+                <div class="tooltip">YouTube apps</div>
+            </div>
+            <div class="bell-icon-container">
+                <img class="icon" src="icons/notifications.svg">
+                <div class="notification-count">5</div>
+                <div class="tooltip">Notifications</div>
+            </div>
+            <img class="profile-picture" src="images/user-chnl.jpg">
+        </div>
+    </div>
+
+    <div class="filter-bar">
+        <div class="filter-text-all">All</div>
+        <div class="filter-text">JavaScript</div>
+        <div class="filter-text">Computer Programming</div>
+        <div class="filter-text">Live</div>
+        <div class="filter-text">Mixes</div>
+        <div class="filter-text">Laptops</div>
+        <div class="filter-text">Music</div>
+        <div class="filter-text">Consumer Electrconics</div>
+        <div class="filter-text">Trailers</div>
+        <div class="filter-text">T-Series</div>
+        <div class="filter-text">Superhero movies</div>
+    </div>
+
+
+
+    <div class="sidebar">
+        <div class="sidebar-link">
+            <img class="sidebar-icon" src="icons/home.svg">
+            <span class="sidebar-menu-text">Home</span>
+        </div>
+        <div class="sidebar-link">
+            <img class="sidebar-icon" src="icons/explore.svg">
+            <span class="sidebar-menu-text">Explore</span>
+        </div>
+        <div class="sidebar-link">
+            <img class="sidebar-icon" src="icons/shorts.svg">
+            <span class="sidebar-menu-text">Shorts</span>
+        </div>
+        <div class="sidebar-link">
+            <img class="sidebar-icon" src="icons/subscriptions.svg">
+            <span class="sidebar-menu-text">Subscriptions</span>
+        </div>
+        <div class="sidebar-link">
+            <img class="sidebar-icon" src="icons/library.svg">
+            <span class="sidebar-menu-text">Library</span>
+        </div>
+    </div>
+
+
+
+    <div class="yt-video-grid">
+
+        <div class="video-preview-frame">
+            <div class="thumbnail-div">
+                <img class="yt-video-thumbnail" src="images/thumb1.jpg">
+                <div class="video-time">8:06</div>
+            </div>
+            <div class="video-info-flex">
+                <div class="channel-logo-div">
+                    <img class="channel-logo" src="images/chnl1.jpg">
+                </div>
+                <div class="video-text-details">
+                    <div class="video-title">
+                        What is a JavaScript Framework? (in detail)
+                    </div>
+                    <div class="channel-name">
+                        SuperSimpleDev
+                    </div>
+                    <div class="video-stats">
+                        42K views &#183; 1 year ago
+                    </div>
+                </div>
+                <div class="more-div">
+                    <img class="more-img" src="icons/more.svg">
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="video-preview-frame">
+            <div class="thumbnail-div">
+                <img class="yt-video-thumbnail" src="images/thumb2.jpg">
+                <div class="video-time">2:00</div>
+            </div>
+            <div class="video-info-flex">
+                <div class="channel-logo-div">
+                    <img class="channel-logo" src="images/chnl2.jpg">
+                </div>
+                <div class="video-text-details">
+                    <div class="video-title">
+                        A Trip to Infinity &#124; Official Trailer &#124; Netflix
+                    </div>
+                    <div class="channel-name">
+                        Netflix
+                    </div>
+                    <div class="video-stats">1.3M views &#183; 2 weeks ago
+                    </div>
+                </div>
+                <div class="more-div">
+                    <img class="more-img" src="icons/more.svg">
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="video-preview-frame">
+            <div class="thumbnail-div">
+                <img class="yt-video-thumbnail" src="images/thumb3.jpg">
+                <div class="video-time">13:30</div>
+            </div>
+            <div class="video-info-flex">
+                <div class="channel-logo-div">
+                    <img class="channel-logo" src="images/chnl3.jpg">
+                </div>
+
+
+                <div class="video-text-details">
+                    <div class="video-title">
+                        Don't Buy these Laptops
+                        &#128683;
+                    </div>
+                    <div class="channel-name">
+                        CodeWithHarry
+                    </div>
+                    <div class="video-stats">
+                        123K views &#183; 5 days ago
+                    </div>
+                </div>
+                <div class="more-div">
+                    <img class="more-img" src="icons/more.svg">
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="video-preview-frame">
+            <div class="thumbnail-div">
+                <img class="yt-video-thumbnail" src="images/thumb4.jpg">
+                <div class="video-time">8:23</div>
+            </div>
+            <div class="video-info-flex">
+                <div class="channel-logo-div">
+                    <img class="channel-logo" src="images/chnl4.jpg">
+                </div>
+                <div class="video-text-details">
+                    <div class="video-title">
+                        Search On '22 in under 9 minutes
+                    </div>
+                    <div class="channel-name">
+                        Google
+                    </div>
+                    <div class="video-stats">
+                        16K views &#183; 19 hours ago
+                    </div>
+                </div>
+                <div class="more-div">
+                    <img class="more-img" src="icons/more.svg">
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="video-preview-frame">
+            <div class="thumbnail-div">
+                <img class="yt-video-thumbnail" src="images/thumb5.jpg">
+                <div class="video-time">8:16</div>
+            </div>
+            <div class="video-info-flex">
+                <div class="channel-logo-div">
+                    <img class="channel-logo" src="images/chnl5.jpg">
+                </div>
+                <div class="video-text-details">
+                    <div class="video-title">
+                        How I got a package of 24 LPA at age of 16 | Steps to get a job
+                    </div>
+                    <div class="channel-name">
+                        Tanish Garg
+                    </div>
+                    <div class="video-stats">
+                        1.6K views &#183; 3 days ago
+                    </div>
+                </div>
+                <div class="more-div">
+                    <img class="more-img" src="icons/more.svg">
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="video-preview-frame">
+            <div class="thumbnail-div">
+                <img class="yt-video-thumbnail" src="images/thumb6.jpg">
+                <div class="video-time">26:14</div>
+            </div>
+            <div class="video-info-flex">
+                <div class="channel-logo-div">
+                    <img class="channel-logo" src="images/chnl6.jpg">
+                </div>
+                <div class="video-text-details">
+                    <div class="video-title">
+                        Failed JEE 2 times, got into tier 3 College and Cracked
+                    </div>
+                    <div class="channel-name">
+                        Fraz
+                    </div>
+                    <div class="video-stats">
+                        41K views &#183; 6 days ago
+                    </div>
+                </div>
+                <div class="more-div">
+                    <img class="more-img" src="icons/more.svg">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="video-preview-frame">
+            <div class="thumbnail-div">
+                <img class="yt-video-thumbnail" src="images/thumb7.jpg">
+                <div class="video-time">5:16</div>
+            </div>
+            <div class="video-info-flex">
+                <div class="channel-logo-div">
+                    <img class="channel-logo" src="images/chnl7.jpg">
+                </div>
+                <div class="video-text-details">
+                    <div class="video-title">
+                        How to make Eyeballs that Follow You Around
+                    </div>
+                    <div class="channel-name">
+                        Beyond Fireship
+                    </div>
+                    <div class="video-stats">
+                        159K views &#183; 7 days ago
+                    </div>
+                </div>
+                <div class="more-div">
+                    <img class="more-img" src="icons/more.svg">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="video-preview-frame">
+            <div class="thumbnail-div">
+                <img class="yt-video-thumbnail" src="images/thumb8.jpg">
+                <div class="video-time">11:27</div>
+            </div>
+            <div class="video-info-flex">
+                <div class="channel-logo-div">
+                    <img class="channel-logo" src="images/chnl8.jpg">
+                </div>
+                <div class="video-text-details">
+                    <div class="video-title">
+                        Cultural Week of IIT | #fest in IIT | IIT Dhanbad | Ft. @Rittik Baheti(IITIAN)
+                    </div>
+                    <div class="channel-name">
+                        High on Mic
+                    </div>
+                    <div class="video-stats">
+                        52K views &#183; 3 days ago
+                    </div>
+                </div>
+                <div class="more-div">
+                    <img class="more-img" src="icons/more.svg">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="video-preview-frame">
+            <div class="thumbnail-div">
+                <img class="yt-video-thumbnail" src="images/thumb9.webp">
+                <div class="video-time">1:37</div>
+            </div>
+            <div class="video-info-flex">
+                <div class="channel-logo-div">
+                    <img class="channel-logo" src="images/chnl9.jpg">
+                </div>
+                <div class="video-text-details">
+                    <div class="video-title">
+                        Introducing 13th Gen Intel Core Processors for Desktop | Intel
+                    </div>
+                    <div class="channel-name">
+                        Intel
+                    </div>
+                    <div class="video-stats">
+                        123K views &#183; 13 days ago
+                    </div>
+                </div>
+                <div class="more-div">
+                    <img class="more-img" src="icons/more.svg">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="video-preview-frame">
+            <div class="thumbnail-div">
+                <img class="yt-video-thumbnail" src="images/thumb10.webp">
+                <div class="video-time">6:01</div>
+            </div>
+            <div class="video-info-flex">
+                <div class="channel-logo-div">
+                    <img class="channel-logo" src="images/chnl10.jpg">
+                </div>
+                <div class="video-text-details">
+                    <div class="video-title">
+                        Introduction to Germany 2022
+                    </div>
+                    <div class="channel-name">
+                        Programmers are aslo human
+                    </div>
+                    <div class="video-stats">
+                        27K views &#183; 11 days ago
+                    </div>
+                </div>
+                <div class="more-div">
+                    <img class="more-img" src="icons/more.svg">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="video-preview-frame">
+            <div class="thumbnail-div">
+                <img class="yt-video-thumbnail" src="images/thumb11.webp">
+                <div class="video-time">26:14</div>
+            </div>
+            <div class="video-info-flex">
+                <div class="channel-logo-div">
+                    <img class="channel-logo" src="images/chnl11.jpg">
+                </div>
+                <div class="video-text-details">
+                    <div class="video-title">
+                        ASMR Programming - Coding IOS (IPHONE) Calculator - No Talking
+                    </div>
+                    <div class="channel-name">
+                        ProgHub ASMR
+                    </div>
+                    <div class="video-stats">
+                        111K views &#183; 2 weeks ago
+                    </div>
+                </div>
+                <div class="more-div">
+                    <img class="more-img" src="icons/more.svg">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="video-preview-frame">
+            <div class="thumbnail-div">
+                <img class="yt-video-thumbnail" src="images/thumb12.webp">
+                <div class="video-time">26:14</div>
+            </div>
+            <div class="video-info-flex">
+                <div class="channel-logo-div">
+                    <img class="channel-logo" src="images/chnl12.jpg">
+                </div>
+                <div class="video-text-details">
+                    <div class="video-title">
+                        Pixel 7/Pro and Watch Impression!
+                    </div>
+                    <div class="channel-name">
+                        Marques Browniee
+                    </div>
+                    <div class="video-stats">
+                        4M views &#183; 4 days ago
+                    </div>
+                </div>
+                <div class="more-div">
+                    <img class="more-img" src="icons/more.svg">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="video-preview-frame">
+            <div class="thumbnail-div">
+                <img class="yt-video-thumbnail" src="images/thumb13.webp">
+                <div class="video-time">2:11</div>
+            </div>
+            <div class="video-info-flex">
+                <div class="channel-logo-div">
+                    <img class="channel-logo" src="images/chnl13.jpg">
+                </div>
+                <div class="video-text-details">
+                    <div class="video-title">
+                        Marvel Studio's Black Panther: Wakanda Forever | Official Trailer
+                    </div>
+                    <div class="channel-name">
+                        Marvel Entertainment
+                    </div>
+                    <div class="video-stats">
+                        23M views &#183; 8 days ago
+                    </div>
+                </div>
+                <div class="more-div">
+                    <img class="more-img" src="icons/more.svg">
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview-frame">
+            <div class="thumbnail-div">
+                <img class="yt-video-thumbnail" src="images/thumb14.webp">
+                <div class="video-time">2:21</div>
+            </div>
+            <div class="video-info-flex">
+                <div class="channel-logo-div">
+                    <img class="channel-logo" src="images/chnl14.jpg">
+                </div>
+                <div class="video-text-details">
+                    <div class="video-title">
+                        Tailwind in 100 Seconds
+                    </div>
+                    <div class="channel-name">
+                        Fireship
+                    </div>
+                    <div class="video-stats">
+                        417K views &#183; 1 year ago
+                    </div>
+                </div>
+                <div class="more-div">
+                    <img class="more-img" src="icons/more.svg">
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview-frame">
+            <div class="thumbnail-div">
+                <img class="yt-video-thumbnail" src="images/thumb15.webp">
+                <div class="video-time">21:10</div>
+            </div>
+            <div class="video-info-flex">
+                <div class="channel-logo-div">
+                    <img class="channel-logo" src="images/chnl15.jpg">
+                </div>
+                <div class="video-text-details">
+                    <div class="video-title">
+                        Quantum Programming - Part 1
+                    </div>
+                    <div class="channel-name">
+                        New Mind
+                    </div>
+                    <div class="video-stats">
+                        235K views &#183; 2 months ago
+                    </div>
+                </div>
+                <div class="more-div">
+                    <img class="more-img" src="icons/more.svg">
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview-frame">
+            <div class="thumbnail-div">
+                <img class="yt-video-thumbnail" src="images/thumb16.webp">
+                <div class="video-time">26:14</div>
+            </div>
+            <div class="video-info-flex">
+                <div class="channel-logo-div">
+                    <img class="channel-logo" src="images/chnl16.jpg">
+                </div>
+                <div class="video-text-details">
+                    <div class="video-title">
+                        TVF Tripling | Truth or Dare With Siblings ft. Sumet Vyas
+                    </div>
+                    <div class="channel-name">
+                        The Viral Fever
+                    </div>
+                    <div class="video-stats">
+                        151K views &#183; 8 hours ago
+                    </div>
+                </div>
+                <div class="more-div">
+                    <img class="more-img" src="icons/more.svg">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

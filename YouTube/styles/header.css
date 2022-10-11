@@ -1,0 +1,229 @@
+.yt-header {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 100;
+}
+
+.left-header-section {
+    align-items: center;
+    display: flex;
+}
+
+.middle-header-section {
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.right-header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.hamburger-menu {
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.youtube-logo {
+    height: 20px;
+    cursor: pointer;
+}
+
+.search-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 60px;
+    background-color: rgb(240, 240, 240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c0c0c0;
+    margin-left: -1px;
+    margin-right: 10px;
+    cursor: pointer;
+    position: relative;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.upload-icon-container:hover,
+.yt-apps-container:hover,
+.bell-icon-container:hover {
+    background-color: hsl(0, 0%, 92%);
+}
+
+
+.upload-icon-container,
+.yt-apps-container,
+.bell-icon-container {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+    border-radius: 20px;
+}
+
+.search-button .tooltip,
+.voice-button .tooltip,
+.upload-icon-container .tooltip,
+.yt-apps-container .tooltip,
+.bell-icon-container .tooltip {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    font-family: Roboto;
+    top: 45px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.4s;
+    white-space: nowrap;
+}
+
+.search-button:hover .tooltip,
+.voice-button:hover .tooltip,
+.upload-icon-container:hover .tooltip,
+.yt-apps-container:hover .tooltip,
+.bell-icon-container:hover .tooltip {
+    opacity: 1;
+}
+
+.voice-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    position: relative;
+}
+
+.search-bar {
+    flex: 1;
+    padding-left: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 16px;
+    border-color: #c0c0c0;
+    height: 36px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    width: 0;
+}
+
+.search-bar::placeholder {
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.icon {
+    width: 25px;
+    cursor: pointer;
+}
+
+.profile-picture {
+    border-radius: 20px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.bell-icon-container {
+    position: relative;
+}
+
+.notification-count {
+    position: absolute;
+    top: 3px;
+    right: -1px;
+    background-color: #d00000;
+    color: white;
+    border-radius: 10px;
+    font-size: 13px;
+    font-family: Roboto;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.filter-bar {
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    position: fixed;
+    top: 55px;
+    left: 80px;
+    right: 20px;
+    z-index: 80;
+    background-color: white;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
+    white-space: nowrap;
+}
+
+
+.filter-text {
+    margin-left: 1%;
+    background-color: hsl(0, 0%, 95%);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    font-family: Roboto;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.filter-text-all {
+    background-color: hsl(0, 0%, 0%);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    font-family: Roboto;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.filter-text:hover {
+    background-color: hsl(0, 0%, 90%);
+}
