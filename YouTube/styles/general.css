@@ -15,32 +15,19 @@ body {
 /* media query added */
 /* for marking responsive design */
 
-@media (max-width:585px) {
+@media (min-width:380px) {
     .yt-video-grid {
         grid-template-columns: 1fr;
     }
-
-    .sidebar {
-        visibility: hidden;
-    }
-
-    body {
-        padding-left: 20px;
-        padding-top: 80px;
-    }
-
-    .filter-bar {
-        visibility: hidden;
-    }
 }
 
-@media (min-width:586px) and (max-width:818px) {
+@media (min-width:600px) {
     .yt-video-grid {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media (min-width:819px) and (max-width:1080px) {
+@media (min-width:768px){
     .yt-video-grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
