@@ -18,11 +18,12 @@
 
 .middle-header-section {
     flex: 1;
-    margin-left: 70px;
-    margin-right: 35px;
-    max-width: 600px;
+    margin-left: 60px;
+    margin-right: 1px;
+    max-width: 650px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .right-header-section {
@@ -36,9 +37,22 @@
 
 .hamburger-menu {
     height: 24px;
-    margin-left: 24px;
-    margin-right: 24px;
+    margin-left: 16px;
+    margin-right: 16px;
     cursor: pointer;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: hsla(0, 0%, 100%, 0);
+}
+
+.hamburger-menu:hover {
+    background-color: hsl(0, 0%, 92%);
+    border-color: hsl(0, 0%, 92%);
 }
 
 .youtube-logo {
@@ -52,17 +66,23 @@
     align-items: center;
     height: 40px;
     width: 60px;
-    background-color: rgb(240, 240, 240);
+    background-color: hsl(0, 0%, 97%);
     border-width: 1px;
     border-style: solid;
-    border-color: #c0c0c0;
+    border-color: hsl(0, 0%, 80%);
     margin-left: -1px;
     margin-right: 10px;
     cursor: pointer;
     position: relative;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
+    transition: background-color 0.3s;
 }
+
+.search-button:hover {
+    background-color: hsl(0, 0%, 90%);
+}
+
 
 .upload-icon-container:hover,
 .yt-apps-container:hover,
@@ -102,7 +122,7 @@
     top: 45px;
     pointer-events: none;
     opacity: 0;
-    transition: opacity 0.4s;
+    transition: opacity 0.2s;
     white-space: nowrap;
 }
 
@@ -122,9 +142,15 @@
     width: 40px;
     border: none;
     border-radius: 20px;
-    background-color: #f2f2f2;
+    background-color: hsl(0, 0%, 97%);
     cursor: pointer;
     position: relative;
+    transition: background-color 0.1s;
+}
+
+
+.voice-button:hover {
+    background-color: hsl(0, 0%, 86%);
 }
 
 .search-bar {
@@ -144,6 +170,8 @@
 .search-bar::placeholder {
     font-family: Roboto;
     font-size: 16px;
+    padding-left: 10px;
+    color: hsl(0, 0%, 55%);
 }
 
 .icon {
@@ -178,7 +206,6 @@
 }
 
 .filter-bar {
-    height: 5%;
     display: flex;
     flex-direction: row;
     align-items: center;
