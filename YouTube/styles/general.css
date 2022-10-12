@@ -15,26 +15,3 @@ body {
 /* media query added */
 /* for marking responsive design */
 
-@media (min-width:380px) {
-    .yt-video-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (min-width:600px) {
-    .yt-video-grid {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media (min-width:768px){
-    .yt-video-grid {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-
-@media (min-width:1080px) {
-    .yt-video-grid {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-}
